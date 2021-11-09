@@ -1,5 +1,6 @@
 # Lab_5
 Intro to Embedded Systems Lab 5
+Question 3
 The purpose of this code is to generate a hardware PWM that controls the brightness of an LED. The goal was to write a code that generated a 250 ms delay with a 20% duty cycle.
 This code is very similar to the software version, except that it uses a physical timer which uses interrupts to toggle the LED. 
 We set P1.6 as the output pin and then figured out what values should be used for TACCR0 and TACCR1. 
